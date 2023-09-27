@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+  <head>
+    <title>iPhone - Apple</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Apple iPhone Store website by Petr Raisigl."
+    />
+
+    <!-- MY STYLING  -->
+    <link rel="stylesheet" href="../styles/base.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/animation.css" />
+    <link rel="stylesheet" href="../styles/shop.css" />
+
+    <!-- Google Font - Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&wght@200&wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ee8cc52b8a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="header-shop">
+      <nav class="nav-bar">
+        <a href="../index.html">
+          <!-- LOGO  -->
+          <img
+            class="main-logo"
+            src="../img/phones/navbar/appleLogoWhite.png"
+            alt="Apple Logo"
+          />
+        </a>
+        <!-- NAV LIST -->
+        <ul class="nav-list">
+          <li class="nav-list-item nav-link">
+            <a href="../index.html">Store</a>
+          </li>
+          <li class="nav-list-item nav-link"><a href="#">Mac</a></li>
+          <li class="nav-list-item nav-link"><a href="#">iPad</a></li>
+          <li class="nav-list-item nav-link">
+            <a href="../index.html">iPhone</a>
+          </li>
+          <li class="nav-list-item nav-link"><a href="#">Watch</a></li>
+          <li class="nav-list-item nav-link"><a href="#">AirPods</a></li>
+          <li class="nav-list-item nav-link"><a href="#">TV & Home</a></li>
+          <li class="nav-list-item nav-link"><a href="#">Entertainment</a></li>
+          <li class="nav-list-item nav-link"><a href="#">Accessories</a></li>
+          <li class="nav-list-item nav-link"><a href="#">Support</a></li>
+        </ul>
+        <!-- SEARCH / CART / BURGER MENU -->
+        <div class="cart-search">
+          <!-- SEARCH ICON -->
+          <div class="nav-list-icon">
+            <a href="#">
+              <i class="fa-solid fa-magnifying-glass nav-icon"></i>
+            </a>
+          </div>
+          <!-- ANIMATED CART ICON  -->
+          <div class="nav-list-icon">
+            <a name="shopping-cart" href="#">
+              <i class="wiggle fa-solid fa-bag-shopping"></i>
+            </a>
+          </div>
+          <!-- BURGER MENU ICON -->
+          <div class="nav-list-icon nav-list-menu">
+            <a href="#"><i class="fa-solid fa-bars nav-icon"></i></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+      <!-- TRADE IN BAR -->
+      <article class="hero-trade-in">
+        <p class="hero-trade-in-p">
+          Get $250–$875 in credit when you trade in iPhone 11 or higher.
+          <sup class="super-script">‡‡</sup>
+        </p>
+      </article>
+      <!-- Shopping SECTION --------------------------------------------------------------------------------->
+      <article class="shopping-page">
+        <!-- HEADGIN  -->
+        <div class="heading">
+          <div class="shopping-heading">
+            <p class="text-highlight">New</p>
+            <h1 class="hero-heading">Buy iPhone SE</h1>
+            <p class="heading-financing">
+              From $579 or $26.18/mo.for 24 mo. at 7.99% APR
+            </p>
+          </div>
+          <!-- HEADING FINANCING  -->
+          <div class="finance">
+            <p class="finance-child">
+              Get $40-$875 for your trade-in.
+              <sup class="super-script">‡‡</sup>
+            </p>
+            <p class="finance-child">
+              Pay monthly with financing.
+              <sup class="super-script">‡</sup>
+            </p>
+          </div>
+        </div>
+        <!-- SHOWCASE PURCHASE  -->
+        <div class="showcase-purchase">
+          <!-- HEADING MOBILE  -->
+          <div class="purchase-heading-mobile">
+            <p>
+              <strong>
+                Finish.
+                <span class="text-muted">Pick your favourite.</span>
+              </strong>
+            </p>
+          </div>
+          <!-- SHOWCASE IMAGE  -->
+          <div class="showcase">
+            <picture>
+              <source srcset="../img/phones/shop-se.png" />
+              <img
+                class="showcase-img"
+                src="../img/phones/shop-se.png"
+                alt="Image of the iPhone SE"
+              />
+            </picture>
+          </div>
+          <!-- PURCHASE SHIPPING  -->
+          <div class="purchase">
+            <div class="purchase-heading">
+              <strong>Finish.</strong>
+              <span class="text-muted">Pick your favourite.</span>
+            </div>
+            <div class="purchase-iphone">
+              <div class="purchase-product">
+                <h2 class="model-select-heading">
+                  64GB
+                  <sup class="super-script">2</sup>
+                </h2>
+              </div>
+              <div class="purchase-financing">
+                <p>
+                  $579 or $26.18/mo.for 24 mo. at 7.99% APR
+                  <sup class="super-script">‡</sup>
+                </p>
+              </div>
+            </div>
+            <div class="purchase-iphone">
+              <div class="purchase-product">
+                <h2 class="model-select-heading">
+                  126GB
+                  <sup class="super-script">2</sup>
+                </h2>
+              </div>
+              <div class="purchase-financing">
+                <p>
+                  $640 or $29.34/mo.for 24 mo. at 7.99% APR
+                  <sup class="super-script">‡</sup>
+                </p>
+              </div>
+            </div>
+            <h2 class="purchase-heading-mobile text-medium">
+              Where should we send your order?
+            </h2>
+
+            <h3 class="name-address">Enter your name and address:</h3>
+            <div class="form">
+              <input id="fname" type="text" placeholder="First Name" />
+              <input id="lname" type="text" placeholder="Last Name" />
+              <input id="staddress" type="text" placeholder="Street Address" />
+              <input id="province" type="text" placeholder="Province" />
+              <input id="postal" type="text" placeholder="Postal Code" />
+              <input
+                id="phone"
+                type="number"
+                placeholder="Mobile Phone Number"
+              />
+              <input id="email" type="email" placeholder="Email Address" />
+            </div>
+          </div>
+          <!-- IN THE BOX DETAILS  -->
+          <div class="in-the-box">
+            <p class="go-green text-muted">
+              <strong>Our environmental goals</strong>
+            </p>
+            <p class="go-green text-muted">
+              As part of our efforts to reach carbon neutrality by 2030, iPhone
+              14 and iPhone 14 Plus do not include a power adapter or EarPods.
+              Included in the box is a USB‑C to Lightning Cable that supports
+              fast charging and is compatible with USB‑C power adapters and
+              computer ports.
+            </p>
+            <p class="go-green text-muted">
+              We encourage you to re‑use your current USB‑A to Lightning cables,
+              power adapters and headphones that are compatible with these
+              iPhone models. But if you need any new Apple power adapters or
+              headphones, they are available for purchase.
+            </p>
+          </div>
+          <!-- PURCHASE BUTTON  -->
+          <button class="purchase-button">Add to Bag</button>
+        </div>
+      </article>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-section">
+        <ol class="footer-list text-muted">
+          <li>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime,
+              aspernatur soluta quo recusandae atque commodi esse et
+              exercitationem at repudiandae odit consequatur expedita id aliquam
+              pariatur. Earum quos dolorum unde ut tempora a laudantium
+              reiciendis iusto accusamus, voluptate beatae nostrum distinctio
+              alias sed recusandae deleniti veritatis, fugit et voluptatum ipsam
+              quaerat esse doloremque. Quia, dolore. Maxime sed non ea corporis
+              unde libero quasi perspiciatis odio! Veniam expedita ex voluptatum
+              esse, laboriosam accusamus illo, ullam eveniet deserunt autem
+              mollitia alias velit molestiae odit nostrum fugit sunt asperiores.
+              Quo distinctio a laboriosam facilis officiis, dolores aspernatur,
+              nam adipisci commodi necessitatibus natus nesciunt.
+            </p>
+          </li>
+          <li>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              quam repellat nesciunt eius corporis delectus modi aut assumenda,
+              aspernatur at neque recusandae molestias itaque velit saepe
+              voluptatum. Saepe pariatur totam sed distinctio, vero aliquid
+              dolores ut cumque! Numquam consectetur soluta labore ullam cumque
+              perspiciatis veniam quisquam dolore aliquam. Rem pariatur soluta
+              fuga nesciunt porro facere tenetur repudiandae laborum obcaecati
+              suscipit deleniti dolor illo exercitationem dolores omnis vel quo
+              tempora quasi maxime minus, necessitatibus sapiente laudantium
+              cum. Cupiditate laboriosam molestias sint, autem nisi corrupti
+              sapiente ea cum, in ullam fugit accusamus.
+            </p>
+          </li>
+          <li>
+            <p></p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
+            voluptate laudantium perferendis quam error libero, quia, asperiores
+            ipsum vel nihil beatae id quis. Aut in perspiciatis minus expedita
+            natus eum facilis labore corporis impedit, sint nostrum corrupti
+            mollitia ratione voluptatem iste, fuga harum eos assumenda quae.
+            Placeat non tempora eligendi.
+          </li>
+          <li>
+            <p></p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+            corporis esse. Itaque error provident assumenda repudiandae vitae
+            magni consequatur in laboriosam quos dolores id, sint debitis ut
+            incidunt. Ducimus, numquam!
+          </li>
+          <li>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              dolorem blanditiis sequi commodi a earum non error cumque aut
+              mollitia iusto pariatur magni sit qui ratione similique, fugiat
+              vel aliquam, deleniti voluptate ab provident maxime. Eum dolorem
+              et aliquid voluptate doloribus totam nihil maxime voluptatum,
+              atque, omnis harum animi molestiae laudantium earum! Sed saepe
+              nulla repudiandae. Sit odit dolores error delectus deleniti, minus
+              tempora laudantium debitis est nulla quia! Unde optio, iusto
+              provident laudantium laborum similique ex odit dolor? Sed incidunt
+              at rem culpa, mollitia cupiditate quaerat, facere odit repellat
+              nesciunt ut eligendi quidem debitis exercitationem modi ab.
+              Voluptatum, porro.
+            </p>
+          </li>
+          <li>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              voluptas harum. Quo eligendi doloremque illo esse ea placeat,
+              quidem officia perspiciatis totam magnam praesentium fugit
+              blanditiis quis. Velit soluta fugiat dolorem deserunt sequi, earum
+              tenetur aut harum nemo quibusdam unde. Nulla deserunt aperiam aut
+              quidem iure, est a totam minima.
+            </p>
+          </li>
+          <li>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur
+              laudantium officiis labore necessitatibus voluptas ipsa ad natus
+              tempora blanditiis asperiores! Tempore, consectetur. Quia,
+              eligendi illum.
+            </p>
+          </li>
+          <li>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
+              consectetur, tenetur accusamus ratione unde doloribus tempore
+              aliquam cumque aperiam, incidunt veritatis necessitatibus,
+              pariatur sequi atque voluptate! Ab consectetur mollitia
+              consequuntur maiores dolores laborum aperiam voluptas ipsum
+              quisquam assumenda quo, natus odit suscipit eligendi quis amet?
+              Temporibus hic blanditiis repellendus, nostrum minus est deleniti
+              ea et possimus accusamus explicabo cumque voluptatum provident
+              animi rerum laborum maxime eum, harum veritatis, commodi
+              perferendis eligendi. Magni excepturi earum minus eius libero
+              reprehenderit inventore ipsum, hic, ut velit sint praesentium
+              molestias itaque totam fugit sed eligendi cum dolore repellat!
+              Aperiam, sequi? Pariatur explicabo culpa provident?
+            </p>
+          </li>
+          <li>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+              officia, aliquam facere doloremque temporibus repellat similique
+              aspernatur ad laboriosam deserunt.
+            </p>
+          </li>
+          <li>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Perspiciatis, quos.
+            </p>
+          </li>
+        </ol>
+        <div class="footer-bar">
+          <!-- LOGO  -->
+          <img
+            class="footer-logo"
+            src="../img/phones/navbar/appleLogo.png"
+            alt="Apple Logo"
+          />
+        </div>
+        <div class="footer-links-container">
+          <ul class="footer-links text-smallest">
+            <li>
+              <a class="footer-link text-muted" href="#">Shop and Learn</a>
+              <span class="footer-link-symbol">+</span>
+            </li>
+            <li>
+              <a class="footer-link text-muted" href="#">Apple Wallet</a>
+              <span class="footer-link-symbol">+</span>
+            </li>
+            <li>
+              <a class="footer-link text-muted" href="#">Account</a>
+              <span class="footer-link-symbol">+</span>
+            </li>
+            <li>
+              <a class="footer-link text-muted" href="#">Entertainment</a>
+              <span class="footer-link-symbol">+</span>
+            </li>
+            <li>
+              <a class="footer-link text-muted" href="#">Apple Store</a>
+              <span class="footer-link-symbol">+</span>
+            </li>
+            <li>
+              <a class="footer-link text-muted" href="#">For Business</a>
+              <span class="footer-link-symbol">+</span>
+            </li>
+            <li>
+              <a class="footer-link text-muted" href="#">Terms of Service</a>
+              <span class="footer-link-symbol">+</span>
+            </li>
+            <li>
+              <a class="footer-link text-muted" href="#">About Apple</a>
+              <span class="footer-link-symbol">+</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bar">
+          <p class="text-muted">Canada (English) | Français</p>
+          <p class="text-muted">Made By Petr Raisigl</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

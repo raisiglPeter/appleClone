@@ -1,0 +1,261 @@
+/* SHOPPING PAGE  ********************************/
+.shopping-page {
+  display: grid;
+  gap: 1rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+  max-width: 999px;
+}
+.showcase-purchase {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 1fr auto 0.1fr 0.1fr;
+  gap: 1rem;
+}
+.heading {
+  padding-top: 2rem;
+  text-align: left;
+  display: grid;
+  align-items: center;
+  height: 200px;
+}
+.hero-heading {
+  font-size: 2.5rem;
+}
+.heading-financing {
+  font-size: 0.75rem;
+  padding: 1rem 0;
+}
+.finance {
+  display: flex;
+  gap: 0.5rem;
+}
+.finance-child {
+  text-align: right;
+  padding: 0.7rem;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 1rem;
+  background-color: var(--background-grey-nav);
+}
+.showcase-img {
+  border-radius: 1rem;
+  max-width: 100%;
+}
+.purchase {
+  display: grid;
+  gap: 1rem;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 1fr;
+}
+.purchase-heading {
+  display: none;
+}
+.purchase-heading-mobile {
+  text-align: left;
+  display: block;
+  font-size: 1.3rem;
+}
+.purchase-iphone {
+  box-sizing: border-box;
+  background-color: white;
+  color: black;
+  display: grid;
+  margin: 1px;
+  grid-template-columns: 2fr 1fr;
+  padding: 1.5rem 0.5rem;
+  border-radius: 0.5rem;
+  text-align: left;
+  border: 1px black solid;
+}
+.purchase-iphone:hover {
+  margin: 0;
+  cursor: pointer;
+  border: 2px var(--link-blue) solid;
+}
+.purchase-product {
+  margin: auto 0;
+  text-align: left;
+}
+.model-select-heading {
+  font-size: 1rem;
+}
+.purchase-financing {
+  font-size: 0.65rem;
+  display: flex;
+  text-align: right;
+}
+.purchase-product,
+.purchase-financing {
+  align-items: center;
+}
+.name-address {
+  text-align: left;
+  font-size: 1rem;
+}
+.purchase-button {
+  border-radius: 0.5rem;
+  width: 100%;
+}
+.purchase-button:hover {
+  background-color: var(--button-blue-hover);
+}
+/* FORM */
+.align-left {
+  text-align: left;
+}
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(6, 50px);
+  text-align: left;
+  gap: 0.5rem;
+}
+.form > input {
+  grid-column: 1 / span 2;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+  border: 1px black solid;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+#province {
+  grid-column: 1 / span 1;
+}
+#postal {
+  grid-column: 2 / span 1;
+}
+.in-the-box {
+  grid-row: 5 / 5;
+  display: grid;
+  text-align: center;
+  gap: 1rem;
+}
+.in-the-box > p {
+  padding: 0 1rem;
+}
+.in-the-box-img {
+  max-width: 100%;
+}
+.go-green {
+  font-size: 0.75rem;
+}
+.go-green:last-child {
+  padding-bottom: 2rem;
+}
+
+/* MOBILE LANDSCAPE  */
+@media only screen and (min-width: 736px) and (orientation: landscape) {
+  .shopping-page {
+    margin: 0 auto;
+    max-width: 999px;
+  }
+  .text-highlight {
+    font-size: 1rem;
+  }
+  .hero-trade-in {
+    height: 60px;
+  }
+  .hero-trade-in-p {
+    font-size: 1rem;
+  }
+  .finance {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: end;
+    font-size: 0.75rem;
+  }
+  .heading {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  .showcase-purchase {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 0.1fr 0.1fr;
+    gap: 1rem;
+  }
+  .purchase-heading {
+    text-align: center;
+    display: block;
+    font-size: 1rem;
+  }
+  .hero-heading {
+    font-size: 2.5rem;
+  }
+  .purchase-heading-mobile {
+    display: none;
+  }
+  .purchase-iphone {
+    grid-template-columns: 1.5fr 1fr;
+  }
+  .purchase-financing {
+    text-align: right;
+  }
+  .name-address {
+    text-align: center;
+  }
+  .form {
+    grid-template-rows: repeat(6, 40px);
+  }
+  .in-the-box {
+    grid-row: auto;
+    display: grid;
+    text-align: center;
+    gap: 1rem;
+  }
+}
+/* TABLET PORTRAIT */
+@media only screen and (min-width: 481px) and (orientation: portrait) {
+  .shopping-page {
+    max-width: 90vw;
+  }
+}
+@media only screen and (min-width: 736px) and (orientation: portrait) {
+  .shopping-page {
+    max-width: 85vw;
+    padding: 0 2rem;
+    margin: 0 auto;
+  }
+  .nav-list {
+    font-size: 0.9rem;
+  }
+  .hero-trade-in-p {
+    font-size: 1rem;
+  }
+  .heading-financing,
+  .purchase-heading,
+  .text-highlight,
+  .finance-child {
+    font-size: 0.75rem;
+  }
+  .finance {
+    margin: 0;
+    gap: 1rem;
+  }
+  .purchase {
+    grid-template-rows: minmax(40px, 100px) minmax(40px, 100px) 0.1fr 0.1fr auto;
+  }
+  .model-select-heading {
+    font-size: 1.2rem;
+  }
+  .purchase-iphone {
+    margin: 0;
+    padding: 0 1rem;
+    align-items: center;
+  }
+  .purchase-paragraph {
+    font-size: 0.75rem;
+  }
+  .purchase-product,
+  .purchase-financing {
+    align-items: center;
+  }
+  .purchase-financing {
+    text-align: right;
+    font-size: 0.75rem;
+  }
+}

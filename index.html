@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+  <head>
+    <title>Apple</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Apple iPhone Store website by Petr Raisigl."
+    />
+
+    <!-- MY STYLING  -->
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/animation.css" />
+
+    <!-- Google Font - Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONT AWESOME ICONS -->
+    <script
+      src="https://kit.fontawesome.com/ee8cc52b8a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="header">
+      <nav class="nav-bar">
+        <a href="index.html">
+          <!-- LOGO  -->
+          <img
+            class="main-logo"
+            src="./img/phones/navbar/appleLogo.png"
+            alt="Apple Logo"
+          />
+        </a>
+        <!-- NAV LIST -->
+        <ul class="nav-list">
+          <li class="nav-list-item nav-link">
+            <a href="./index.html">Store</a>
+          </li>
+          <li class="nav-list-item nav-link"><a href="#">Mac</a></li>
+          <li class="nav-list-item nav-link"><a href="#">iPad</a></li>
+          <li class="nav-list-item nav-link">
+            <a href="./index.html">iPhone</a>
+          </li>
+          <li class="nav-list-item nav-link"><a href="#">Watch</a></li>
+          <li class="nav-list-item nav-link"><a href="#">AirPods</a></li>
+          <li class="nav-list-item nav-link"><a href="#">TV & Home</a></li>
+          <li class="nav-list-item nav-link"><a href="#">Entertainment</a></li>
+          <li class="nav-list-item nav-link"><a href="#">Accessories</a></li>
+          <li class="nav-list-item nav-link"><a href="#">Support</a></li>
+        </ul>
+        <!-- SEARCH / CART / BURGER MENU -->
+        <div class="cart-search">
+          <div class="nav-list-icon">
+            <a name="search" href="#">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+          </div>
+          <!-- ANIMATED CART ICON  -->
+          <div class="nav-list-icon">
+            <a name="shopping-cart" href="#">
+              <i class="wiggle fa-solid fa-bag-shopping"></i>
+            </a>
+          </div>
+          <div class="nav-list-icon nav-list-menu">
+            <a name="nav-menu" href="#">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT --------------------------------------------------------------------------------------->
+    <main class="main-content">
+      <!-- PRODUCTS BAR -->
+      <div class="horizontal-scroll">
+        <ul class="products-bar" id="products-bar">
+          <li class="products-bar-item zoom">
+            <a href="./shop/shop-pro.html">
+              <img
+                class="products-bar-image"
+                src="./img/phones/navbar/iphone14pro.png"
+                alt="iPhone 14 Pro"
+              />
+            </a>
+            <p class="products-bar-desc">iPhone 14 Pro</p>
+            <p class="text-highlight">New</p>
+          </li>
+          <li class="products-bar-item zoom">
+            <a href="./shop/shop.html">
+              <img
+                class="products-bar-image"
+                src="./img/phones/navbar/iphone14.png"
+                alt="iPhone 14"
+              />
+            </a>
+            <p class="products-bar-desc">iPhone 14</p>
+            <p class="text-highlight">New</p>
+          </li>
+          <li class="products-bar-item zoom">
+            <img
+              class="products-bar-image"
+              src="./img/phones/navbar/iphone13.png"
+              alt="iPhone 13"
+            />
+            <p class="products-bar-desc">iPhone 13</p>
+          </li>
+          <li class="products-bar-item zoom">
+            <a href="./shop/shop-se.html">
+              <img
+                class="products-bar-image"
+                src="./img/phones/navbar/iphoneSE.png"
+                alt="iPhone SE"
+              />
+            </a>
+            <p class="products-bar-desc">iPhone SE</p>
+          </li>
+          <li class="products-bar-item zoom">
+            <img
+              class="products-bar-image"
+              src="./img/phones/navbar/iphone13.png"
+              alt="iPhone 12"
+            />
+            <p class="products-bar-desc">iPhone 12</p>
+          </li>
+          <li class="products-bar-item zoom">
+            <img
+              class="products-bar-image"
+              src="./img/phones/navbar/compare.png"
+              alt="Compare products"
+            />
+            <p class="products-bar-desc">Compare</p>
+          </li>
+          <li class="products-bar-item zoom">
+            <img
+              class="products-bar-image"
+              src="./img/phones/navbar/airpods.png"
+              alt="AirPods"
+            />
+            <p class="products-bar-desc">AirPods</p>
+          </li>
+          <li class="products-bar-item zoom">
+            <img
+              class="products-bar-image"
+              src="./img/phones/navbar/airtag.png"
+              alt="AirTag"
+            />
+            <p class="products-bar-desc">AirTag</p>
+          </li>
+          <li class="products-bar-item zoom">
+            <img
+              class="products-bar-image"
+              src="./img/phones/navbar/accessories.png"
+              alt="Accessories"
+            />
+            <p class="products-bar-desc">Accessories</p>
+          </li>
+          <li class="products-bar-item zoom">
+            <img
+              class="products-bar-image ios"
+              src="./img/phones/navbar/ios.png"
+              alt="iOS"
+            />
+            <p class="products-bar-desc">iOS</p>
+            <p class="text-highlight">Preview</p>
+          </li>
+          <li class="products-bar-item zoom">
+            <img
+              class="products-bar-image"
+              src="./img/phones/navbar/shopiphone.png"
+              alt="Shop all iPhone"
+            />
+            <p class="products-bar-desc">Shop iPhone</p>
+          </li>
+          <div class="list-scroll-right" id="list-scroll-right">
+            <i class="fa-solid fa-chevron-right list-scroll-chevron"></i>
+          </div>
+          <div class="list-scroll-left" id="list-scroll-left">
+            <i class="fa-solid fa-chevron-left list-scroll-chevron"></i>
+          </div>
+        </ul>
+      </div>
+
+      <!-- MAIN TRADE IN BAR -->
+      <article class="hero-trade-in">
+        <p class="hero-trade-in-p">
+          Get $250–$875 in credit toward iPhone 14 or iPhone 14 Pro when you
+          trade in iPhone 11 or higher.
+          <sup class="super-script">1</sup>
+          <a href="#" class="hero-trade-in-link icon-after-small">
+            Shop iPhone
+          </a>
+        </p>
+      </article>
+
+      <!-- HERO CTA SECTION --------------------------------------------------------------------------------->
+      <!-- ARTICLE 1 -->
+      <article class="hero-article">
+        <div class="hero-content">
+          <p class="hero-new">New</p>
+          <img
+            class="iphone14-logo"
+            src="./img/phones/iphone14logo.png"
+            alt="iPhone 14 logo."
+          />
+          <h1 class="hero-heading-1">Wonderfull.</h1>
+          <p class="hero-trade-in-p-large">
+            <span class="se-heading-nowrap">
+              From $1099 before trade-in
+              <sup class="super-script">1</sup>
+            </span>
+            <br />
+            <span class="se-heading-nowrap">or pay monthly with financing</span>
+          </p>
+          <a href="./shop/shop.html">
+            <button class="hero-btn cta-btn">Buy</button>
+          </a>
+
+          <p class="hero-link icon-after">Learn more</p>
+          <div class="image-container-14">
+            <picture>
+              <source
+                srcset="./img/phones/hero-14.png"
+                media="(orientation: portrait)"
+              />
+              <img
+                class="iphone-14-img"
+                src="./img/phones/hero-14.png"
+                alt="Image of the iPhone 14 lineup."
+              />
+            </picture>
+          </div>
+        </div>
+      </article>
+
+      <!-- NEWEST IPHONE CTA SECTION -->
+      <!-- ARTICLE 2 -->
+      <article class="hero-article background-black">
+        <img
+          class="iphone-pro-logo"
+          src="./img/phones/iphone14prologo.png"
+          alt="iPhone 14 Pro logo."
+        />
+        <h1 class="hero-heading-1">Pro. Beyond.</h1>
+        <p class="hero-trade-in-p-large">
+          <span class="se-heading-nowrap">
+            From $1399 before trade-in
+            <sup class="super-script">1</sup>
+          </span>
+          <br />
+          <span class="se-heading-nowrap">or pay monthly with financing</span>
+        </p>
+        <a href="./shop/shop-pro.html">
+          <button class="hero-btn cta-btn text-medium buy-button">Buy</button>
+        </a>
+        <p class="hero-link-pro icon-after">Learn more</p>
+
+        <picture>
+          <source
+            srcset="./img/phones/hero-pro.png"
+            media=" (orientation: landscape)"
+          />
+          <source
+            srcset="./img/phones/hero-pro.png"
+            media=" only screen and (min-width: 820px)"
+          />
+          <img
+            class="iphone-14-pro-img"
+            src="./img/phones/hero-pro-portrait.png"
+            alt="Image of the iPhone 14 Pro lineup."
+          />
+        </picture>
+      </article>
+
+      <!-- CHEAPEST IPHONE CTA SECTION -->
+      <!-- ARTICLE 3 -->
+      <article class="hero-article-se">
+        <div class="se-boxes">
+          <!-- BOX  -->
+          <div class="se-box">
+            <img
+              class="iphone-se-logo"
+              src="./img/phones/iphoneselogo.png"
+              alt="iPhone SE logo."
+            />
+            <h1 class="se-heading">
+              <span class="se-heading-nowrap">Love the power.</span>
+              <br />
+              <span class="se-heading-nowrap">Love the price.</span>
+            </h1>
+            <p class="hero-trade-in-p-large">
+              <span class="se-heading-nowrap">
+                From $579 before trade-in
+                <sup class="super-script">1</sup>
+              </span>
+              <br />
+              <span class="se-heading-nowrap">
+                or pay monthly with financing
+              </span>
+            </p>
+            <div class="se-box-buy">
+              <a href="./shop/shop-se.html">
+                <button class="hero-btn cta-btn text-medium buy-button">
+                  Buy
+                </button>
+              </a>
+              <span class="hero-link icon-after">Learn more</span>
+            </div>
+          </div>
+          <!-- BOX  -->
+          <div class="se-box">
+            <picture>
+              <source
+                srcset="./img/phones/hero-se.png"
+                media="(orientation: portrait)"
+              />
+              <img
+                class="iphone-se-img"
+                src="./img/phones/hero-se.png"
+                alt="Image of the iPhone SE lineup."
+              />
+            </picture>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <!-- FOOTER --------------------------------------------------------------------------------------------->
+    <footer>
+      <div class="footer-section">
+        <ol class="footer-list text-muted">
+          <li>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime,
+              aspernatur soluta quo recusandae atque commodi esse et
+              exercitationem at repudiandae odit consequatur expedita id aliquam
+              pariatur. Earum quos dolorum unde ut tempora a laudantium
+              reiciendis iusto accusamus, voluptate beatae nostrum distinctio
+              alias sed recusandae deleniti veritatis, fugit et voluptatum ipsam
+              quaerat esse doloremque. Quia, dolore. Maxime sed non ea corporis
+              unde libero quasi perspiciatis odio! Veniam expedita ex voluptatum
+              esse, laboriosam accusamus illo, ullam eveniet deserunt autem
+              mollitia alias velit molestiae odit nostrum fugit sunt asperiores.
+              Quo distinctio a laboriosam facilis officiis, dolores aspernatur,
+              nam adipisci commodi necessitatibus natus nesciunt.
+            </p>
+          </li>
+          <li>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              quam repellat nesciunt eius corporis delectus modi aut assumenda,
+              aspernatur at neque recusandae molestias itaque velit saepe
+              voluptatum. Saepe pariatur totam sed distinctio, vero aliquid
+              dolores ut cumque! Numquam consectetur soluta labore ullam cumque
+              perspiciatis veniam quisquam dolore aliquam. Rem pariatur soluta
+              fuga nesciunt porro facere tenetur repudiandae laborum obcaecati
+              suscipit deleniti dolor illo exercitationem dolores omnis vel quo
+              tempora quasi maxime minus, necessitatibus sapiente laudantium
+              cum. Cupiditate laboriosam molestias sint, autem nisi corrupti
+              sapiente ea cum, in ullam fugit accusamus.
+            </p>
+          </li>
+          <li>
+            <p></p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
+            voluptate laudantium perferendis quam error libero, quia, asperiores
+            ipsum vel nihil beatae id quis. Aut in perspiciatis minus expedita
+            natus eum facilis labore corporis impedit, sint nostrum corrupti
+            mollitia ratione voluptatem iste, fuga harum eos assumenda quae.
+            Placeat non tempora eligendi.
+          </li>
+          <li>
+            <p></p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+            corporis esse. Itaque error provident assumenda repudiandae vitae
+            magni consequatur in laboriosam quos dolores id, sint debitis ut
+            incidunt. Ducimus, numquam!
+          </li>
+          <li>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              dolorem blanditiis sequi commodi a earum non error cumque aut
+              mollitia iusto pariatur magni sit qui ratione similique, fugiat
+              vel aliquam, deleniti voluptate ab provident maxime. Eum dolorem
+              et aliquid voluptate doloribus totam nihil maxime voluptatum,
+              atque, omnis harum animi molestiae laudantium earum! Sed saepe
+              nulla repudiandae. Sit odit dolores error delectus deleniti, minus
+              tempora laudantium debitis est nulla quia! Unde optio, iusto
+              provident laudantium laborum similique ex odit dolor? Sed incidunt
+              at rem culpa, mollitia cupiditate quaerat, facere odit repellat
+              nesciunt ut eligendi quidem debitis exercitationem modi ab.
+              Voluptatum, porro.
+            </p>
+          </li>
+          <li>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              voluptas harum. Quo eligendi doloremque illo esse ea placeat,
+              quidem officia perspiciatis totam magnam praesentium fugit
+              blanditiis quis. Velit soluta fugiat dolorem deserunt sequi, earum
+              tenetur aut harum nemo quibusdam unde. Nulla deserunt aperiam aut
+              quidem iure, est a totam minima.
+            </p>
+          </li>
+          <li>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur
+              laudantium officiis labore necessitatibus voluptas ipsa ad natus
+              tempora blanditiis asperiores! Tempore, consectetur. Quia,
+              eligendi illum.
+            </p>
+          </li>
+          <li>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
+              consectetur, tenetur accusamus ratione unde doloribus tempore
+              aliquam cumque aperiam, incidunt veritatis necessitatibus,
+              pariatur sequi atque voluptate! Ab consectetur mollitia
+              consequuntur maiores dolores laborum aperiam voluptas ipsum
+              quisquam assumenda quo, natus odit suscipit eligendi quis amet?
+              Temporibus hic blanditiis repellendus, nostrum minus est deleniti
+              ea et possimus accusamus explicabo cumque voluptatum provident
+              animi rerum laborum maxime eum, harum veritatis, commodi
+              perferendis eligendi. Magni excepturi earum minus eius libero
+              reprehenderit inventore ipsum, hic, ut velit sint praesentium
+              molestias itaque totam fugit sed eligendi cum dolore repellat!
+              Aperiam, sequi? Pariatur explicabo culpa provident?
+            </p>
+          </li>
+          <li>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+              officia, aliquam facere doloremque temporibus repellat similique
+              aspernatur ad laboriosam deserunt.
+            </p>
+          </li>
+          <li>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Perspiciatis, quos.
+            </p>
+          </li>
+        </ol>
+        <div class="footer-bar">
+          <!-- LOGO  -->
+          <img
+            class="footer-logo"
+            src="./img/phones/navbar/appleLogo.png"
+            alt="Apple Logo"
+          />
+        </div>
+        <div class="footer-links-container">
+          <ul class="footer-links">
+            <li>
+              <a class="footer-link text-muted" href="#">Shop and Learn</a>
+              <span class="footer-link-symbol">+</span>
+            </li>
+            <li>
+              <a class="footer-link text-muted" href="#">Apple Wallet</a>
+              <span class="footer-link-symbol">+</span>
+            </li>
+            <li>
+              <a class="footer-link text-muted" href="#">Account</a>
+              <span class="footer-link-symbol">+</span>
+            </li>
+            <li>
+              <a class="footer-link text-muted" href="#">Entertainment</a>
+              <span class="footer-link-symbol">+</span>
+            </li>
+            <li>
+              <a class="footer-link text-muted" href="#">Apple Store</a>
+              <span class="footer-link-symbol">+</span>
+            </li>
+            <li>
+              <a class="footer-link text-muted" href="#">For Business</a>
+              <span class="footer-link-symbol">+</span>
+            </li>
+            <li>
+              <a class="footer-link text-muted" href="#">Terms of Service</a>
+              <span class="footer-link-symbol">+</span>
+            </li>
+            <li>
+              <a class="footer-link text-muted" href="#">About Apple</a>
+              <span class="footer-link-symbol">+</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bar">
+          <p class="text-muted">Canada (English) | Français</p>
+          <p class="text-muted">Made By Petr Raisigl</p>
+        </div>
+      </div>
+    </footer>
+    <!-- SCRIPT FOR SCROLLING THE PRODUCTS-BAR  -->
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
