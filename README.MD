@@ -1,6 +1,6 @@
-This repository is now archived.
-This is my first attempt at making a basic HTML/CSS/JS website.
-It is a clone of the iPhone portion of the apple.ca website created for a front-end class. URL - https://www.apple.com/ca/iphone/
+- This repository is now archived.
+- This is my first attempt at making a basic HTML/CSS/JS website.
+- It is a clone of the iPhone portion of the apple.ca website created for a front-end class. URL - https://www.apple.com/ca/iphone/
 
 Navigation:
 - The Apple logo is a link to the landing page - index.html
